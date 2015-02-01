@@ -107,8 +107,8 @@ if(num > 2) {
 ```
 
 ```
-Warning: the condition has length > 1 and only the first element will be
-used
+Warning in if (num > 2) {: the condition has length > 1 and only the first
+element will be used
 ```
 
 The expression throws a warning saying that only the first element (`1 > 2`) will be used. That is why the expression does not return anything.

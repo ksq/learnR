@@ -74,7 +74,7 @@ add(list(a=1),list(a=2))
 ```
 
 ```
-Error: non-numeric argument to binary operator
+Error in x + y: non-numeric argument to binary operator
 ```
 
 ## Generalizing a function
@@ -123,7 +123,7 @@ calc(c(2,5),c(3,6),"divide")
 ```
 
 ```
-[1] 0.6667 0.8333
+[1] 0.6666667 0.8333333
 ```
 
 The function is also generalized to work with non-numeric vectors but `+` is well-defined.
@@ -145,7 +145,7 @@ calc(1,2,"what")
 ```
 
 ```
-Error: Unknown type of operation
+Error in calc(1, 2, "what"): Unknown type of operation
 ```
 
 no conditions are satisfied so that the expression in the last `else` block will be evaluated. That is a `stop` call which yields an error message and terminate the function immediately.
@@ -158,8 +158,8 @@ calc(1,2,c("add","minue"))
 ```
 
 ```
-Warning: the condition has length > 1 and only the first element will be
-used
+Warning in if (type == "add") {: the condition has length > 1 and only the
+first element will be used
 ```
 
 ```
@@ -196,7 +196,7 @@ calc(1,2,c("add","minue"))
 ```
 
 ```
-Error: Only a single type is accepted
+Error in calc(1, 2, c("add", "minue")): Only a single type is accepted
 ```
 
 ## Default value for argument

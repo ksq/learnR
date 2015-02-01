@@ -321,7 +321,7 @@ The patterns are clear: we can put any numeric vector inside the square brackets
 [1] 1 3
 ```
 
-We can also supply an equal-length logical vector to determine whether each entry should be extracted.
+We can also supply a equal-length logical vector to determine whether each entry should be extracted.
 
 
 ```r
@@ -576,7 +576,7 @@ Each kind of vector can be converted to character vector since everything has a 
 ```
 
 ```
-Error: non-numeric argument to binary operator
+Error in as.character(c(1, 2)) + c(2, 3): non-numeric argument to binary operator
 ```
 
 ## Arithmetic operators for numeric vectors
@@ -613,7 +613,7 @@ The arithmetic operations of numeric vectors are very simple. They basically fol
 ```
 
 ```
-[1] 0.5000 0.6667 0.7500
+[1] 0.5000000 0.6666667 0.7500000
 ```
 
 ```r

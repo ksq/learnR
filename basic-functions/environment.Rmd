@@ -3,7 +3,7 @@ opts_knit$set(base.dir='./', fig.path='', out.format='md')
 opts_chunk$set(prompt=TRUE, comment='', results='markup')
 # See yihui.name/knitr/options for more Knitr options.
 ##### Put other setup R code here
-
+rm(list = ls())
 ```
 
 # Environment functions
@@ -45,6 +45,8 @@ For instance, the numberic digits are set by default to 7. Sometimes it is not s
 getOption("digits")
 1e10 + 0.5
 options(digits=15)
+1e10 + 0.5
+options(digits=7)
 1e10 + 0.5
 ```
 

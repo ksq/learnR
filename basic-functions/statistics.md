@@ -77,7 +77,7 @@ so that another sample uniformly distributed within $$[-5,5]$$ is drawn.
 
 In addition to a simple random number generator, some relavent functions are also provided, including the probability density function `dunif()`, the cumulative density function `punif()`, and quantile function `qunif()`.
 
-![plot of chunk unif](figure/unif.png) 
+![plot of chunk unif](figure/unif-1.png) 
 
 ### Normal distribution
 
@@ -109,7 +109,7 @@ rnorm(10,mean = 10,sd = 5)
 
 In addition to the random number generator for normal distribution, R also provides with its probability density function `dnorm()`, cumulative density function `pnorm()`, and quantile function `qnorm()`.
 
-![plot of chunk norm](figure/norm.png) 
+![plot of chunk norm](figure/norm-1.png) 
 
 Here it is obvious that R defines 4 functions for each distribution it supports. 
 
@@ -124,7 +124,7 @@ The following list contains all built-in distributions and their corresponding r
 | [Cauchy distribution](//en.wikipedia.org/wiki/Cauchy_distribution) | `rcauchy(n = , location = 0, scale = 1)` |
 | [Chi-squared distribution](//en.wikipedia.org/wiki/Chi-squared_distribution) | `rchisq(n = , df = , ncp = 0)` |
 | [Exponential distribution](//en.wikipedia.org/wiki/Exponential_distribution) | `rexp(n = , rate = 1)` |
-| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df(x = , df1 = , df2 = , ncp = , log = FALSE)` |
+| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df()` |
 | [Gamma distribution](//en.wikipedia.org/wiki/Gamma_distribution) | `rgamma(n = , shape = , rate = 1, scale = 1/rate)` |
 | [Geometric distribution](//en.wikipedia.org/wiki/Geometric_distribution) | `rgeom(n = , prob = )` |
 | [Hypergeometric distribution](//en.wikipedia.org/wiki/Hypergeometric_distribution) | `rhyper(nn = , m = , n = , k = )` |

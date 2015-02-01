@@ -14,7 +14,7 @@ It is helpful to know some functions that work with environment.
 ```
 
 ```
-[1] "bib"
+character(0)
 ```
 
 ```r
@@ -24,7 +24,7 @@ It is helpful to know some functions that work with environment.
 ```
 
 ```
-[1] "bib" "x"   "y"  
+[1] "x" "y"
 ```
 
 `remove()` or equivalently, `rm()` removes existing symbols.
@@ -37,7 +37,7 @@ It is helpful to know some functions that work with environment.
 ```
 
 ```
-[1] "bib"
+character(0)
 ```
 
 If we want to clear all the bindings in the current environment, we call like this:
@@ -59,7 +59,7 @@ For instance, the numberic digits are set by default to 7. Sometimes it is not s
 ```
 
 ```
-[1] 4
+[1] 7
 ```
 
 ```r
@@ -77,6 +77,15 @@ For instance, the numberic digits are set by default to 7. Sometimes it is not s
 
 ```
 [1] 10000000000.5
+```
+
+```r
+> options(digits=7)
+> 1e10 + 0.5
+```
+
+```
+[1] 1e+10
 ```
 
 There are some other important functions related to environment manipulation. However, it is beyond basic level so we will cover this topic in detail in the advanced chapters.

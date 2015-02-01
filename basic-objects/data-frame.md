@@ -515,7 +515,8 @@ However, it may induce problems for other columns not limited to take several po
 ```
 
 ```
-Warning: invalid factor level, NA generated
+Warning in `[<-.factor`(`*tmp*`, iseq, value = "John"): invalid factor
+level, NA generated
 ```
 
 ```r

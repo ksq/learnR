@@ -39,7 +39,7 @@ The expression `0` is evaluated only once so that the same value is assigned to 
 ```
 
 ```
-[1] -0.5022 -0.5022 -0.5022
+[1] -0.5021924 -0.5021924 -0.5021924
 ```
 
 `rnorm(1)` generates a random number following the standard normal distribution. If each assignment re-invokes the random number generator, each symbol will have different values. But in fact, it does not happen. Later we will explain what really happens and you will have a better understanding on it.
@@ -77,8 +77,8 @@ If the symbol name cannot be validly referred to directly, we also need to use t
 ```
 
 ```
- [1]  0.13153 -0.07892  0.88678  0.11697  0.31863 -0.58179  0.71453
- [8] -0.82526 -0.35986  0.08989
+ [1]  0.13153117 -0.07891709  0.88678481  0.11697127  0.31863009
+ [6] -0.58179068  0.71453271 -0.82525943 -0.35986213  0.08988614
 ```
 
 An exception is `data.frame`. Even if we use quotation marks around a name with unusual symbols, the resulted `data.frame` will replace those symbols with `.`.
@@ -89,15 +89,15 @@ An exception is `data.frame`. Even if we use quotation marks around a name with 
 ```
 
 ```
-        a..   a...1
-1   0.76406  1.7574
-2   0.26196 -0.1379
-3   0.77340 -0.1112
-4  -0.81438 -0.6900
-5  -0.43845 -0.2218
-6  -0.72022  0.1829
-7   0.23094  0.4173
-8  -1.15773  1.0654
-9   0.24708  0.9702
-10 -0.09111 -0.1016
+           a..      a...1
+1   0.76406062  1.7573756
+2   0.26196129 -0.1379296
+3   0.77340460 -0.1111935
+4  -0.81437912 -0.6900143
+5  -0.43845057 -0.2217942
+6  -0.72022155  0.1829077
+7   0.23094453  0.4173233
+8  -1.15772946  1.0654023
+9   0.24707599  0.9702020
+10 -0.09111356 -0.1016292
 ```

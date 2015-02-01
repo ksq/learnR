@@ -81,7 +81,7 @@ An alternative function is `message()` which is often used in serious situations
 ```
 
 ```
-Error: object 'user' not found
+Error in message("Hello, ", name, " - a user of ", user): object 'user' not found
 ```
 
 Therefore we show the same text, we need to write the separators manually.
@@ -322,11 +322,18 @@ I created a package named `rprintf`, an advanced version of `sprintf()`. It is a
 
 ```r
 > library(rprintf)
+```
+
+```
+Error in library(rprintf): there is no package called 'rprintf'
+```
+
+```r
 > rprintf("My name is $name, and I'm $age years old.",name="Ken",age=25)
 ```
 
 ```
-[1] "My name is Ken, and I'm 25 years old."
+Error in eval(expr, envir, enclos): could not find function "rprintf"
 ```
 
 For more details, visit its [website](http://renkun.me/rprintf),  its page on [CRAN](http://cran.r-project.org/web/packages/rprintf/), or view the project on [GitHub](https://github.com/renkun-ken/rprintf).
