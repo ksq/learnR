@@ -11,3 +11,6 @@ output/
 *.local.*
 *.RData
 *.bat
+*.pdf
+*.mobi
+*.epub

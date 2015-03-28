@@ -1,3 +1,9 @@
 {
-    
+  "links": {
+    "home": "http://renkun.me/learnR",
+
+    "about": "https://github.com/renkun-ken",
+    "issues": "https://github.com/renkun-ken/learnR/issues",
+    "edit": null
+  }
 }

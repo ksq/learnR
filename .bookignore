@@ -11,3 +11,6 @@ local/
 src/
 tasks/
 *.bat
+*.pdf
+*.epub
+*.mobi
