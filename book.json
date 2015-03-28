@@ -1,11 +1,3 @@
 {
-    "plugins": ["ga"],
-    "pluginsConfig": {
-        "ga": {
-            "token": "UA-47159422-1"
-        },
-        "disqus": {
-            "shortName": "renkun-ken"
-        }
-    }
+    
 }
