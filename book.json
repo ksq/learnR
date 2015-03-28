@@ -1,4 +1,9 @@
 {
+  "gitbook": ">=2.0.0",
+  "title": "learnR",
+  "description": "Learn R as a programming language",
+  "language": "en",
+  
   "links": {
     "home": "http://renkun.me/learnR",
 
