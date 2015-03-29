@@ -3,10 +3,14 @@
   "title": "learnR",
   "description": "Learn R as a programming language",
   "language": "en",
-  
+  "plugins": ["katex", "ga"],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-47159422-1"
+    }
+  },
   "links": {
     "home": "http://renkun.me/learnR",
-
     "about": "https://github.com/renkun-ken",
     "issues": "https://github.com/renkun-ken/learnR/issues",
     "edit": null
