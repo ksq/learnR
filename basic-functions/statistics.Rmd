@@ -48,7 +48,7 @@ Uniform distribution is the simplest random distribution. Under uniform distribu
 runif(10)
 ```
 
-A random sample of size 10, represented by a numeric vector, is drawn from the uniform distribution with range $$[0,1]$$. To customize the range, we can specify `min=` and `max=` arguments 
+A random sample of size 10, represented by a numeric vector, is drawn from the uniform distribution with range $$[0,1]$$. To customize the range, we can specify `min=` and `max=` arguments
 
 ```{r}
 runif(10,min = -5,max = 5)
@@ -92,11 +92,11 @@ plot(pnorm,xlim=c(-5,5),main="pnorm")
 plot(qnorm,xlim=c(0,1),main="qnorm")
 ```
 
-Here it is obvious that R defines 4 functions for each distribution it supports. 
+Here it is obvious that R defines 4 functions for each distribution it supports.
 
 ### Table of supported distributions
 
-The following list contains all built-in distributions and their corresponding random number generating function. 
+The following list contains all built-in distributions and their corresponding random number generating function.
 
 | Distribution | Random number generator |
 |:------------:|-------------------------|
@@ -188,7 +188,7 @@ In fact, this function is a generic function that works for many types of object
 
 ## Statistical tests
 
-A large part of statistics is about drawing samples from a population, and making inference of population features by inspecting these samples. To answer questions like *Is the average score of this group higher than that of the other group?* statistical tests often play important roles. 
+A large part of statistics is about drawing samples from a population, and making inference of population features by inspecting these samples. To answer questions like *Is the average score of this group higher than that of the other group?* statistical tests often play important roles.
 
 Statistical tests allow us to answer these kinds of questions in statistical sense when we only have partial information. They also tell us at the same time to what extent we should feel confident about the conclusion.
 

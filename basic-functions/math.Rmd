@@ -28,9 +28,9 @@ Mathematical functions are essential in all computing environments. R also provi
 | $$\sinh(x)$$ | `sinh(1)` | `r sinh(1)` |
 | $$\cosh(x)$$ | `cosh(1)` | `r cosh(1)` |
 | $$\tanh(x)$$ | `tanh(1)` | `r tanh(1)` |
-| $$\mbox{arcsinh}(x)$$ | `asinh(1)` | `r asinh(1)` |
-| $$\mbox{arccosh}(x)$$ | `acosh(1)` | `r acosh(1)` |
-| $$\mbox{arctanh}(x)$$ | `atanh(1)` | `r atanh(1)` |
+| $$arcsinh(x)$$ | `asinh(1)` | `r asinh(1)` |
+| $$arccosh(x)$$ | `acosh(1)` | `r acosh(1)` |
+| $$arctanh(x)$$ | `atanh(1)` | `r atanh(1)` |
 
 ## Number functions
 
@@ -52,7 +52,7 @@ Mathematical functions are essential in all computing environments. R also provi
 
 ## Root finding
 
-`polyroot()` can find complex roots of a polynomial equation in the form of 
+`polyroot()` can find complex roots of a polynomial equation in the form of
 
 $$ p(x) = z_1 + z_2 x + \ldots + z_n x^{n-1}.$$
 
@@ -68,8 +68,8 @@ Note that all complex roots are found.
 
 As for general numeric root finding in the form $$f(x)=0$$, `uniroot()` function can be used to numerically find a root of that equation.
 
-For example, find a root of the equation 
-$$x^3 - x + \cos(x) = 0$$ 
+For example, find a root of the equation
+$$x^3 - x + \cos(x) = 0$$
 within the range $$x\in[-5,5]$$.
 
 ```{r}
@@ -80,19 +80,19 @@ In the function call, we pass an *anonymous function* to `uniroot()`. We will co
 
 ## Calculus
 
-It is very handy to perform basic calculus. 
+It is very handy to perform basic calculus.
 
 ### Derivatives
 
-`D()` computes the derivative of a function symbolically with respect to given variables. 
+`D()` computes the derivative of a function symbolically with respect to given variables.
 
-For example, derive $$\mbox{d}x^{2}/\mbox{d}x$$.
+For example, derive $$dx^2/dx$$.
 
 ```{r}
 D(expression(x^2),"x")
 ```
 
-Derive $$\mbox{d}\sin(x)\cos(xy)/\mbox{d}x$$.
+Derive $$d\sin(x)\cos(xy)/dx$$.
 
 ```{r}
 D(expression(sin(x)*cos(x*y)),"x")
@@ -109,9 +109,9 @@ eval(z,list(x=1,y=2))
 
 ### Integration
 
-R also supports numeric integration. Here we do not have to write the expression but provide a function since it is not symbolic computation. For example, the following code calculates 
+R also supports numeric integration. Here we do not have to write the expression but provide a function since it is not symbolic computation. For example, the following code calculates
 
-$$\int_{0}^{\frac{\pi}{2}}\sin(x)\,\mbox{d}x.$$
+$$\int_{0}^{\frac{\pi}{2}}\sin(x)\,dx.$$
 
 ```{r}
 integrate(function(x) sin(x),0,pi/2)

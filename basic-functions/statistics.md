@@ -61,7 +61,7 @@ runif(10)
  [8] 0.2777238 0.4883060 0.9285051
 ```
 
-A random sample of size 10, represented by a numeric vector, is drawn from the uniform distribution with range $$[0,1]$$. To customize the range, we can specify `min=` and `max=` arguments 
+A random sample of size 10, represented by a numeric vector, is drawn from the uniform distribution with range $$[0,1]$$. To customize the range, we can specify `min=` and `max=` arguments
 
 
 ```r
@@ -111,11 +111,11 @@ In addition to the random number generator for normal distribution, R also provi
 
 ![plot of chunk norm](figure/norm-1.png) 
 
-Here it is obvious that R defines 4 functions for each distribution it supports. 
+Here it is obvious that R defines 4 functions for each distribution it supports.
 
 ### Table of supported distributions
 
-The following list contains all built-in distributions and their corresponding random number generating function. 
+The following list contains all built-in distributions and their corresponding random number generating function.
 
 | Distribution | Random number generator |
 |:------------:|-------------------------|
@@ -124,7 +124,7 @@ The following list contains all built-in distributions and their corresponding r
 | [Cauchy distribution](//en.wikipedia.org/wiki/Cauchy_distribution) | `rcauchy(n = , location = 0, scale = 1)` |
 | [Chi-squared distribution](//en.wikipedia.org/wiki/Chi-squared_distribution) | `rchisq(n = , df = , ncp = 0)` |
 | [Exponential distribution](//en.wikipedia.org/wiki/Exponential_distribution) | `rexp(n = , rate = 1)` |
-| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df()` |
+| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df(x = , df1 = , df2 = , ncp = , log = FALSE)` |
 | [Gamma distribution](//en.wikipedia.org/wiki/Gamma_distribution) | `rgamma(n = , shape = , rate = 1, scale = 1/rate)` |
 | [Geometric distribution](//en.wikipedia.org/wiki/Geometric_distribution) | `rgeom(n = , prob = )` |
 | [Hypergeometric distribution](//en.wikipedia.org/wiki/Hypergeometric_distribution) | `rhyper(nn = , m = , n = , k = )` |
@@ -266,7 +266,7 @@ In fact, this function is a generic function that works for many types of object
 
 ## Statistical tests
 
-A large part of statistics is about drawing samples from a population, and making inference of population features by inspecting these samples. To answer questions like *Is the average score of this group higher than that of the other group?* statistical tests often play important roles. 
+A large part of statistics is about drawing samples from a population, and making inference of population features by inspecting these samples. To answer questions like *Is the average score of this group higher than that of the other group?* statistical tests often play important roles.
 
 Statistical tests allow us to answer these kinds of questions in statistical sense when we only have partial information. They also tell us at the same time to what extent we should feel confident about the conclusion.
 
