@@ -198,7 +198,7 @@ a <- c(1,3)
 v1[a]
 ```
 
-We can also supply a equal-length logical vector to determine whether each entry should be extracted.
+We can also supply an equal-length logical vector to determine whether each entry should be extracted.
 
 ```{r}
 v1[c(TRUE,FALSE,TRUE,FALSE)]
