@@ -240,7 +240,7 @@ r2 FALSE FALSE  TRUE
 r3 FALSE  TRUE  TRUE
 ```
 
-We can use a equal-sized logical matrix for subsetting as if it is a vector.
+We can use an equal-sized logical matrix for subsetting as if it is a vector.
 
 
 ```r

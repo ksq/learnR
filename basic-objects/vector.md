@@ -321,7 +321,7 @@ The patterns are clear: we can put any numeric vector inside the square brackets
 [1] 1 3
 ```
 
-We can also supply a equal-length logical vector to determine whether each entry should be extracted.
+We can also supply an equal-length logical vector to determine whether each entry should be extracted.
 
 
 ```r
