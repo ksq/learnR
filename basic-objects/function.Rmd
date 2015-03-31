@@ -68,7 +68,7 @@ Functions are well-defined abstraction of a particular set of logic or process i
 
 To make a function more widely applicable is called *generalization*. It is very handy to generalize a function in a weakly-typed programming language like R, but it can be error-prone if it is incorrectly implemented.
 
-To make `add` function more general that can handle various primitive algebraic operations, we can define another function called `calc`. This new function accepts three arguments where `x` and `y` are the two vectors, and `type` accepts a character vector the the kind of algebraic operation the user want to perform.
+To make `add` function more general that can handle various primitive algebraic operations, we can define another function called `calc`. This new function accepts three arguments where `x` and `y` are the two vectors, and `type` accepts a character vector  the kind of algebraic operation the user wants to perform.
 
 The following code implements such a function by using *flow control*, which we will cover in the next chapter. In the code, which expression is to be evaluated depends on the value of `type`.
 
