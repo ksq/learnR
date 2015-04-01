@@ -62,7 +62,7 @@ or equivalently use `-1` to remove the intercept.
 lm(sr~pop15+pop75+dpi+ddpi-1,data=LifeCycleSavings)
 ```
 
-If there are too many regressors, it can be time-consuming to written them down. We can use `.` to represent all the resting columns.
+If there are too many regressors, it can be time-consuming to write them down. We can use `.` to represent all the resting columns.
 
 ```{r}
 lm(sr~.,data=LifeCycleSavings)
