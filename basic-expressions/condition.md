@@ -167,7 +167,7 @@ In conclusion, every time we use `if` expression to branch the workflow, we shou
 
 ## ifelse
 
-An alternative method to branch the workflow is the function `ifelse`. It is simple a function that accepts a single-value logical vector as the test condition. If it is `TRUE` then the second argument will be returned otherwise the third.
+An alternative method to branch the workflow is the function `ifelse`. It is a simple function that accepts a single-value logical vector as the test condition. If it is `TRUE` then the second argument will be returned otherwise the third.
 
 
 ```r
@@ -181,7 +181,7 @@ num3
 [1] 0
 ```
 
-However, this function is not recommend because it only supports single-value vector in all arguments.
+However, this function is not recommended because it only supports single-value vector in all arguments.
 
 
 ```r

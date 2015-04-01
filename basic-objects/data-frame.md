@@ -530,7 +530,7 @@ level, NA generated
 3 Jennifer Female  23 Computer Science
 ```
 
-a warning message appears. It happens because in the initial `Name` dictionary, there is no word called John, therefore we cannot set the name of the first person to be such "non-existing" value. The same thing happens when we set any `Gender` to be `Unknown`. The reason is the exactly the same: when the column is initially created from a character vector while we define a data frame, the column will by default be a factor whose value must be taken from the dictionary created from the unique values in that character vector.
+a warning message appears. It happens because in the initial `Name` dictionary, there is no word called John, therefore we cannot set the name of the first person to be such "non-existing" value. The same thing happens when we set any `Gender` to be `Unknown`. The reason is  exactly the same: when the column is initially created from a character vector while we define a data frame, the column will by default be a factor whose value must be taken from the dictionary created from the unique values in that character vector.
 
 This behavior is sometimes very annoying and does not really help much, especially when memory is cheap today. The simplist way to avoid this behavior is to set `stringsAsFactors = FALSE` when we create a data frame.
 
