@@ -29,7 +29,7 @@ In most scientific research areas and many industrial applications, reproducibil
 
 #### It has rich resources
 
-R has a huge, rapidly increasing amount of online resources. In addition to more than 5,600 packages in almost all data-related areas, there are a great number of authors who regularly write persoanl blogs and [stackoverfolow answers](http://stackoverflow.com/questions/tagged/r) and share their thoughts, experiences, and best practices. Also there are a lot of websites specialized in R like [R-bloggers](http://www.r-bloggers.com/), and [Rdocumentation](http://www.rdocumentation.org/).
+R has a huge, rapidly increasing amount of online resources. In addition to more than 5,600 packages in almost all data-related areas, there are a great number of authors who regularly write personal blogs and [stackoverflow answers](http://stackoverflow.com/questions/tagged/r) and share their thoughts, experiences, and best practices. Also there are a lot of websites specialized in R like [R-bloggers](http://www.r-bloggers.com/), and [Rdocumentation](http://www.rdocumentation.org/).
 
 #### It has strong community
 
@@ -39,8 +39,8 @@ A great number of R users and developers actively contribute to the open-source 
 
 If you have any problems using R, just google what puzzles your mind, there are probably already some answers to your question. If not, just issue a question on [stackoverflow](http://stackoverflow.com), you will get response in a very short time.
 
-#### It is cutting-edge
+#### It's cutting-edge
 
 Many R users are professional researchers in statistics, econometrics, or other displines. It is more often that an author publishes his or her new paper along with a new package that includes the cutting-edge techniques presented in the paper. Maybe it's a new statistical test, a pattern recognition method, or a better-tuned optimization algorithm. 
 
-No matter what it is, R community has the previledge to be early,if not the first, to apply cutting-edge data-science knowledge in real world, improve its functionaly, and reveal its potentials.
+No matter what it is, R community has the previledge to be early, if not the first, to apply cutting-edge data-science knowledge in real world, improve its functionality, and reveal its potentials.

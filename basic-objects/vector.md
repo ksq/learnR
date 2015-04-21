@@ -4,7 +4,7 @@
 
 A vector is a group of primitive values of the same type. It can be a group of numbers, true/false values, texts, and values of some other type. It is one of the building blocks of all R objects. 
 
-There are several types of vectors in R. They distinct from each other in the type of entries they hold. Here we will see the most commonly used types of vectors including numeric vector, logical vector, character vector, and so on.
+There are several types of vectors in R. They are distinct from each other in the type of entries they hold. Here we will see the most commonly used types of vectors including numeric vector, logical vector, character vector, and so on.
 
 
 ## Numeric vector
@@ -182,7 +182,7 @@ Moreover, we can compare two multi-entry numeric vectors as long as the length o
 [1]  TRUE  TRUE  TRUE FALSE
 ```
 
-The computing mechanism is asking the following questions iteratively: `1>2?`, `2>3?`, `-1>2?`, `3>3?`. In other words, the shorter vector will rotate to finish all the comparisons for each entry in the longer vector.
+The computing mechanism is asking the following questions iteratively: `2>1?`, `3>2?`, `2>-1?`, `3>3?`. In other words, the shorter vector will rotate to finish all the comparisons for each entry in the longer vector.
 
 In R, several logical binary operators are defined, such as `==` to denote *equality*, `>` *greater-than*, `>=` *greater-or-equals-to*, `<` *less-than*, `<=` *less-than-or-equals-to*. Moreover, R provides some other additional logical operators like `%in%` to tell whether each entry in the left-hand side vector is contained by the right-hand side vector.
 
